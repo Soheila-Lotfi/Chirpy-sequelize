@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/Soheila-Lotfi/Chripy-sequelize/issues"
   },
-  "homepage": "https://github.com/Soheila-Lotfi/Chripy-sequelize#readme"
+  "homepage": "https://github.com/Soheila-Lotfi/Chripy-sequelize#readme",
+  "dependencies": {
+    "sequelize": "^5.17.1"
+  }
 }
