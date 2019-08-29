@@ -1,7 +1,7 @@
 var Chirp = require("../models/chirp.js");
 
 module.exports = function(app) {
-  app.get("api/all", function(req, res) {
+  app.get("/api/all", function(req, res) {
     Chirp.findAll({}).then(function(results) {
       res.json(results);
     });
