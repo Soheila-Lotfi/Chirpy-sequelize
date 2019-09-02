@@ -1,7 +1,7 @@
 var Sequelize = require("sequelize");
 
 // create mySQL connection using sequelize
-var sequelize = new Sequelize("sequelize_chirpy", "root", "Leila@1357", {
+var sequelize = new Sequelize("sequelize_chirpy", "root", "", {
   host: "localhost",
   port: 3306,
   dialect: "mysql",
