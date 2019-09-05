@@ -8,7 +8,7 @@ Soheila Lotfi
 
 The "chirpy" application is like Twitter. It takes name and comment from the user and then display it on the page.
 
-#### INSTRUCTIONS:
+## INSTRUCTIONS:
 
     * Create a MySQL database named `'chirpy'` with a `'chirps'` table to hold data.
     * The `'chirp'` table includes a field for id, author, chirp, and time created.
